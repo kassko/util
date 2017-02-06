@@ -1,0 +1,19 @@
+{
+    "name": "kassko/util-util",
+    "description": "Various helpers",
+    "license": "MIT",
+    "keywords": ["util", "helper"],
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "kassko/util-member-accessor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kassko\\Util\\Util\\": "lib"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
